@@ -5,13 +5,15 @@
 }
 
 body{
-    background-color: #dcdcdc;
+    background-color: #eeeeee;
 }
 
 .menu-fixo-topo {
     height: 85px; 
     width: 100%;
-    background-color: #98FB98;
+    background-color: #04a904;
+    box-shadow: 0px 3px 16px rgba(50, 50, 50, 0.15);
+    border-bottom: 2px solid darkgray;
 }
 
 .menu-fixo-topo .content {
@@ -25,7 +27,7 @@ body{
 .menu-fixo-topo .logo img {
     margin-top: 10px;
     width: auto;
-    height: 110px;
+    height: 100px;
     cursor: pointer;
 }
 
@@ -36,8 +38,12 @@ body{
 
 .menu-topo nav ul li {
     margin-left: 85px;
+    margin-top: -5px;
     list-style: none;
-    font-size: 20px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
 }
 
 .menu-topo nav ul a {
@@ -47,28 +53,31 @@ body{
 
 section.main-pg {
    display: flex;
-
 }
 
 
 section.main-pg .left {
-    width: 50%;
+    width: 70%;
 }
 
 section.main-pg .left .content {
-    margin: 80px 30px 0;
+    margin: 80px 80px 0;
     padding: 0 5%;
 }
 
 section.main-pg .left h1 {
-    font-size: 40px;
-    color: #006400;
+    font-size: 38px;
+    color: #04a904;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
-section.main-pg .left h3 {
-    padding-top: 30px;
-    font-size: 30px;
+section.main-pg .left p {
+    padding-top: 18px;
+    font-size: 21px;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 section.main-pg .left .btn-saiba-mais {
@@ -81,7 +90,7 @@ section.main-pg .left .btn-saiba-mais button {
     height: 50px;
     width: 180px;
     font-size: 20px;
-    background-color: #006400;
+    background-color: #04a904;
     color: white;
     outline: none;
     cursor: pointer;
@@ -91,12 +100,9 @@ section.main-pg .left .btn-saiba-mais button:hover {
     background-color: rgba(0, 100, 0, 0.8);
 }
 
-section.main-pg .right {
-}
-
 section.main-pg .right .content img{
-    margin-top: 50px;
-    margin-left: 80px;
-    height: 500px;
+    margin-top: 60px;
+    margin-left: -95px;
+    height: 450px;
     width: auto;
 }
